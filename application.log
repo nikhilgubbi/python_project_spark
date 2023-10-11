@@ -1,0 +1,1093 @@
+In the main method....
+Calling Spark object
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 10))]
+Validation completed...go forward
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 10))]
+Validation completed...go forward
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+Application Completed...
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+In the main method....
+Calling Spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating Spark Object...
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+Reading file which is of parquet 
+load_files method started.....
+Dataframe Created Successfully which is of parquet 
+Validating the dataframe......
+Here to count the records in the df_city
+Number of records present in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are :: 28338 
+Checking for the files in the Fact....
+Reading file which is of csv 
+load_files method started.....
+i am in the main method..
+calling spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating spark object..........
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+reading file which is of > parquet
+load_files method started.....
+i am in the main method..
+calling spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating spark object..........
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+reading file which is of > parquet
+load_files method started
+An error occurred while dealing with load_file ====An error occurred while calling o31.load.
+: java.io.IOException: Illegal file pattern: error parsing regexp: invalid escape sequence: `\u`
+	at org.apache.hadoop.fs.GlobFilter.init(GlobFilter.java:71)
+	at org.apache.hadoop.fs.GlobFilter.<init>(GlobFilter.java:50)
+	at org.apache.hadoop.fs.Globber.doGlob(Globber.java:265)
+	at org.apache.hadoop.fs.Globber.glob(Globber.java:202)
+	at org.apache.hadoop.fs.FileSystem.globStatus(FileSystem.java:2124)
+	at org.apache.spark.deploy.SparkHadoopUtil.globPath(SparkHadoopUtil.scala:238)
+	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$checkAndGlobPathIfNecessary$3(DataSource.scala:737)
+	at org.apache.spark.util.ThreadUtils$.$anonfun$parmap$2(ThreadUtils.scala:380)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: org.apache.hadoop.shaded.com.google.re2j.PatternSyntaxException: error parsing regexp: invalid escape sequence: `\u`
+	at org.apache.hadoop.shaded.com.google.re2j.Parser.parseEscape(Parser.java:1439)
+	at org.apache.hadoop.shaded.com.google.re2j.Parser.parseInternal(Parser.java:966)
+	at org.apache.hadoop.shaded.com.google.re2j.Parser.parse(Parser.java:802)
+	at org.apache.hadoop.shaded.com.google.re2j.RE2.compileImpl(RE2.java:183)
+	at org.apache.hadoop.shaded.com.google.re2j.Pattern.compile(Pattern.java:136)
+	at org.apache.hadoop.shaded.com.google.re2j.Pattern.compile(Pattern.java:124)
+	at org.apache.hadoop.fs.GlobPattern.set(GlobPattern.java:156)
+	at org.apache.hadoop.fs.GlobPattern.<init>(GlobPattern.java:42)
+	at org.apache.hadoop.fs.GlobFilter.init(GlobFilter.java:67)
+	... 20 more
+
+i am in the main method..
+calling spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating spark object..........
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+reading file which is of > parquet
+load_files method started
+Load_files func done, go fwd..
+displaying file
+here to validate the df
+here to count the records in the df_city
+number of records 28338 :: 
+checking for the files in the Fact...
+reading file which is of > csv
+load_files method started
+Load_files func done, go fwd..
+displaying the df_fact dataframe
+here to count the records in the df_fact
+number of records 1329329 :: 
+implementing data_processing methods...
+Application Completed...
+i am in the main method..
+calling spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating spark object..........
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+reading file which is of > parquet
+load_files method started
+Load_files func done, go fwd..
+displaying file
+here to validate the df
+here to count the records in the df_city
+number of records 28338 :: 
+checking for the files in the Fact...
+reading file which is of > csv
+load_files method started
+Load_files func done, go fwd..
+displaying the df_fact dataframe
+here to count the records in the df_fact
+number of records 1329329 :: 
+implementing data_processing methods...
+Application Completed...
+i am in the main method..
+calling spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating spark object..........
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+reading file which is of > parquet
+load_files method started
+Load_files func done, go fwd..
+displaying file
+here to validate the df
+here to count the records in the df_city
+number of records 28338 :: 
+checking for the files in the Fact...
+reading file which is of > csv
+load_files method started
+Load_files func done, go fwd..
+displaying the df_fact dataframe
+here to count the records in the df_fact
+number of records 1329329 :: 
+implementing data_processing methods...
+Data_clean method() started....
+Selecting required columns and converting some of columns into upper case....
+Working on OLTP dataset and selecting couple of columns and renaming....
+data_clean() method executed done, go  forward.....
+Application Completed...
+i am in the main method..
+calling spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating spark object..........
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+reading file which is of > parquet
+load_files method started
+Load_files func done, go fwd..
+displaying file
+here to validate the df
+here to count the records in the df_city
+number of records 28338 :: 
+checking for the files in the Fact...
+reading file which is of > csv
+load_files method started
+Load_files func done, go fwd..
+displaying the df_fact dataframe
+here to count the records in the df_fact
+number of records 1329329 :: 
+implementing data_processing methods...
+Data_clean method() started....
+Selecting required columns and converting some of columns into upper case....
+Working on OLTP dataset and selecting couple of columns and renaming....
+data_clean() method executed done, go  forward.....
+Application Completed...
+i am in the main method..
+calling spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating spark object..........
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+reading file which is of > parquet
+load_files method started
+Load_files func done, go fwd..
+displaying file
+here to validate the df
+here to count the records in the df_city
+number of records 28338 :: 
+checking for the files in the Fact...
+reading file which is of > csv
+load_files method started
+Load_files func done, go fwd..
+displaying the df_fact dataframe
+here to count the records in the df_fact
+number of records 1329329 :: 
+implementing data_processing methods...
+Data_clean method() started....
+Selecting required columns and converting some of columns into upper case....
+Working on OLTP dataset and selecting couple of columns and renaming....
+Adding a new column to df_presc_sel
+data_clean() method executed done, go  forward.....
+Application Completed...
+i am in the main method..
+calling spark object
+get_spark_object method started
+Master is local
+Spark object created
+Validating spark object..........
+Started the get_current_date method....
+Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+Validation completed...go forward
+reading file which is of > parquet
+load_files method started
+Load_files func done, go fwd..
+displaying file
+here to validate the df
+here to count the records in the df_city
+number of records 28338 :: 
+checking for the files in the Fact...
+reading file which is of > csv
+load_files method started
+Load_files func done, go fwd..
+displaying the df_fact dataframe
+here to count the records in the df_fact
+number of records 1329329 :: 
+implementing data_processing methods...
+Data_clean method() started....
+Selecting required columns and converting some of columns into upper case....
+Working on OLTP dataset and selecting couple of columns and renaming....
+Adding a new column to df_presc_sel
+data_clean() method executed done, go  forward.....
+Validating schema for the dataframes....
+Print schema method executing....df_city_sel
+	StructField('city', StringType(), True)
+	StructField('state_id', StringType(), True)
+	StructField('state_name', StringType(), True)
+	StructField('county_name', StringType(), True)
+	StructField('population', IntegerType(), True)
+	StructField('zips', StringType(), True)
+print_schema done, go forward
+Print schema method executing....df_presc_sel
+	StructField('presc_id', IntegerType(), True)
+	StructField('presc_fname', StringType(), True)
+	StructField('presc_lname', StringType(), True)
+	StructField('presc_city', StringType(), True)
+	StructField('presc_state', StringType(), True)
+	StructField('presc_spclt', StringType(), True)
+	StructField('drug_name', StringType(), True)
+	StructField('tx_cnt', IntegerType(), True)
+	StructField('total_day_supply', IntegerType(), True)
+	StructField('total_drug_cost', DoubleType(), True)
+	StructField('years_of_exp', StringType(), True)
+	StructField('Country_name', StringType(), False)
+print_schema done, go forward
+Application Completed...
+2023-10-11 17:04:16,485 - root -INFO -i am in the main method..
+2023-10-11 17:04:16,485 - root -INFO -calling spark object
+2023-10-11 17:04:16,485 - Create_spark -INFO -get_spark_object method started
+2023-10-11 17:04:16,485 - Create_spark -INFO -Master is local
+2023-10-11 17:04:18,295 - Create_spark -INFO -Spark object created
+2023-10-11 17:04:18,295 - root -INFO -Validating spark object..........
+2023-10-11 17:04:18,295 - Validate -WARNING -Started the get_current_date method....
+2023-10-11 17:04:19,766 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+2023-10-11 17:04:19,766 - Validate -WARNING -Validation completed...go forward
+2023-10-11 17:04:19,766 - root -INFO -reading file which is of > parquet
+2023-10-11 17:04:19,766 - Ingest -WARNING -load_files method started
+2023-10-11 17:04:20,014 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:04:20,014 - root -INFO -displaying file
+2023-10-11 17:04:20,827 - root -INFO -here to validate the df
+2023-10-11 17:04:20,827 - Ingest -WARNING -here to count the records in the df_city
+2023-10-11 17:04:21,031 - Ingest -WARNING -number of records 28338 :: 
+2023-10-11 17:04:21,031 - root -INFO -checking for the files in the Fact...
+2023-10-11 17:04:21,031 - root -INFO -reading file which is of > csv
+2023-10-11 17:04:21,031 - Ingest -WARNING -load_files method started
+2023-10-11 17:04:23,696 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:04:23,696 - root -INFO -displaying the df_fact dataframe
+2023-10-11 17:04:23,827 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-11 17:04:24,221 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-11 17:04:24,221 - root -INFO -implementing data_processing methods...
+2023-10-11 17:04:24,222 - Data_processing -WARNING -Data_clean method() started....
+2023-10-11 17:04:24,222 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-11 17:04:24,238 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-11 17:04:24,253 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-11 17:04:24,266 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-11 17:04:24,392 - root -INFO -Validating schema for the dataframes....
+2023-10-11 17:04:24,392 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-11 17:04:24,393 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-11 17:04:24,393 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-11 17:04:24,393 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-11 17:04:24,393 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-11 17:04:24,393 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-11 17:04:24,393 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-11 17:04:24,393 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:04:24,393 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('presc_id', IntegerType(), True)
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('presc_fname', StringType(), True)
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('presc_lname', StringType(), True)
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('presc_city', StringType(), True)
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('presc_state', StringType(), True)
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('presc_spclt', StringType(), True)
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('drug_name', StringType(), True)
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('tx_cnt', IntegerType(), True)
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('total_day_supply', IntegerType(), True)
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('total_drug_cost', DoubleType(), True)
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('years_of_exp', StringType(), True)
+2023-10-11 17:04:24,394 - Validate -INFO -	StructField('Country_name', StringType(), False)
+2023-10-11 17:04:24,394 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:04:24,394 - root -INFO -Application Completed...
+2023-10-11 17:14:59,413 - root -INFO -i am in the main method..
+2023-10-11 17:14:59,413 - root -INFO -calling spark object
+2023-10-11 17:14:59,413 - Create_spark -INFO -get_spark_object method started
+2023-10-11 17:14:59,413 - Create_spark -INFO -Master is local
+2023-10-11 17:15:01,134 - Create_spark -INFO -Spark object created
+2023-10-11 17:15:01,134 - root -INFO -Validating spark object..........
+2023-10-11 17:15:01,134 - Validate -WARNING -Started the get_current_date method....
+2023-10-11 17:15:02,575 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+2023-10-11 17:15:02,575 - Validate -WARNING -Validation completed...go forward
+2023-10-11 17:15:02,575 - root -INFO -reading file which is of > parquet
+2023-10-11 17:15:02,575 - Ingest -WARNING -load_files method started
+2023-10-11 17:15:02,814 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:15:02,814 - root -INFO -displaying file
+2023-10-11 17:15:03,612 - root -INFO -here to validate the df
+2023-10-11 17:15:03,612 - Ingest -WARNING -here to count the records in the df_city
+2023-10-11 17:15:03,826 - Ingest -WARNING -number of records 28338 :: 
+2023-10-11 17:15:03,826 - root -INFO -checking for the files in the Fact...
+2023-10-11 17:15:03,826 - root -INFO -reading file which is of > csv
+2023-10-11 17:15:03,826 - Ingest -WARNING -load_files method started
+2023-10-11 17:15:06,462 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:15:06,462 - root -INFO -displaying the df_fact dataframe
+2023-10-11 17:15:06,578 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-11 17:15:06,969 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-11 17:15:06,969 - root -INFO -implementing data_processing methods...
+2023-10-11 17:15:06,969 - Data_processing -WARNING -Data_clean method() started....
+2023-10-11 17:15:06,969 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-11 17:15:06,986 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-11 17:15:06,997 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-11 17:15:07,003 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-11 17:15:07,020 - Data_processing -WARNING -Concat first and last name
+2023-10-11 17:15:07,029 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-11 17:15:07,037 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-11 17:15:07,205 - root -INFO -Validating schema for the dataframes....
+2023-10-11 17:15:07,206 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-11 17:15:07,206 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-11 17:15:07,206 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-11 17:15:07,206 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-11 17:15:07,206 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-11 17:15:07,206 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-11 17:15:07,206 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-11 17:15:07,206 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:15:07,206 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-11 17:15:07,208 - Validate -INFO -	StructField('presc_id', IntegerType(), True)
+2023-10-11 17:15:07,208 - Validate -INFO -	StructField('presc_city', StringType(), True)
+2023-10-11 17:15:07,208 - Validate -INFO -	StructField('presc_state', StringType(), True)
+2023-10-11 17:15:07,208 - Validate -INFO -	StructField('presc_spclt', StringType(), True)
+2023-10-11 17:15:07,208 - Validate -INFO -	StructField('drug_name', StringType(), True)
+2023-10-11 17:15:07,208 - Validate -INFO -	StructField('tx_cnt', IntegerType(), True)
+2023-10-11 17:15:07,208 - Validate -INFO -	StructField('total_day_supply', IntegerType(), True)
+2023-10-11 17:15:07,208 - Validate -INFO -	StructField('total_drug_cost', DoubleType(), True)
+2023-10-11 17:15:07,208 - Validate -INFO -	StructField('years_of_exp', IntegerType(), True)
+2023-10-11 17:15:07,208 - Validate -INFO -	StructField('Country_name', StringType(), False)
+2023-10-11 17:15:07,208 - Validate -INFO -	StructField('presc_fullname', StringType(), False)
+2023-10-11 17:15:07,208 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:15:07,208 - root -INFO -Application Completed...
+2023-10-11 17:17:36,015 - root -INFO -i am in the main method..
+2023-10-11 17:17:36,015 - root -INFO -calling spark object
+2023-10-11 17:17:36,015 - Create_spark -INFO -get_spark_object method started
+2023-10-11 17:17:36,015 - Create_spark -INFO -Master is local
+2023-10-11 17:17:37,836 - Create_spark -INFO -Spark object created
+2023-10-11 17:17:37,836 - root -INFO -Validating spark object..........
+2023-10-11 17:17:37,836 - Validate -WARNING -Started the get_current_date method....
+2023-10-11 17:17:39,371 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+2023-10-11 17:17:39,371 - Validate -WARNING -Validation completed...go forward
+2023-10-11 17:17:39,372 - root -INFO -reading file which is of > parquet
+2023-10-11 17:17:39,372 - Ingest -WARNING -load_files method started
+2023-10-11 17:17:39,650 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:17:39,650 - root -INFO -displaying file
+2023-10-11 17:17:40,438 - root -INFO -here to validate the df
+2023-10-11 17:17:40,438 - Ingest -WARNING -here to count the records in the df_city
+2023-10-11 17:17:40,659 - Ingest -WARNING -number of records 28338 :: 
+2023-10-11 17:17:40,659 - root -INFO -checking for the files in the Fact...
+2023-10-11 17:17:40,659 - root -INFO -reading file which is of > csv
+2023-10-11 17:17:40,659 - Ingest -WARNING -load_files method started
+2023-10-11 17:17:43,274 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:17:43,275 - root -INFO -displaying the df_fact dataframe
+2023-10-11 17:17:43,389 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-11 17:17:43,786 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-11 17:17:43,786 - root -INFO -implementing data_processing methods...
+2023-10-11 17:17:43,786 - Data_processing -WARNING -Data_clean method() started....
+2023-10-11 17:17:43,786 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-11 17:17:43,803 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-11 17:17:43,815 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-11 17:17:43,827 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-11 17:17:43,847 - Data_processing -WARNING -Concat first and last name
+2023-10-11 17:17:43,856 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-11 17:17:43,862 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-11 17:17:44,052 - root -INFO -Validating schema for the dataframes....
+2023-10-11 17:17:44,052 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:17:44,053 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('presc_id', IntegerType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('presc_city', StringType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('presc_state', StringType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('presc_spclt', StringType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('drug_name', StringType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('tx_cnt', IntegerType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('total_day_supply', IntegerType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('total_drug_cost', DoubleType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('years_of_exp', IntegerType(), True)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('Country_name', StringType(), False)
+2023-10-11 17:17:44,053 - Validate -INFO -	StructField('presc_fullname', StringType(), False)
+2023-10-11 17:17:44,053 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:17:44,054 - root -INFO -Application Completed...
+2023-10-11 17:21:39,105 - root -INFO -i am in the main method..
+2023-10-11 17:21:39,105 - root -INFO -calling spark object
+2023-10-11 17:21:39,105 - Create_spark -INFO -get_spark_object method started
+2023-10-11 17:21:39,105 - Create_spark -INFO -Master is local
+2023-10-11 17:21:41,025 - Create_spark -INFO -Spark object created
+2023-10-11 17:21:41,025 - root -INFO -Validating spark object..........
+2023-10-11 17:21:41,025 - Validate -WARNING -Started the get_current_date method....
+2023-10-11 17:21:42,480 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+2023-10-11 17:21:42,480 - Validate -WARNING -Validation completed...go forward
+2023-10-11 17:21:42,480 - root -INFO -reading file which is of > parquet
+2023-10-11 17:21:42,480 - Ingest -WARNING -load_files method started
+2023-10-11 17:21:42,769 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:21:42,769 - root -INFO -displaying file
+2023-10-11 17:21:43,600 - root -INFO -here to validate the df
+2023-10-11 17:21:43,600 - Ingest -WARNING -here to count the records in the df_city
+2023-10-11 17:21:43,795 - Ingest -WARNING -number of records 28338 :: 
+2023-10-11 17:21:43,795 - root -INFO -checking for the files in the Fact...
+2023-10-11 17:21:43,795 - root -INFO -reading file which is of > csv
+2023-10-11 17:21:43,795 - Ingest -WARNING -load_files method started
+2023-10-11 17:21:46,408 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:21:46,409 - root -INFO -displaying the df_fact dataframe
+2023-10-11 17:21:46,525 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-11 17:21:46,915 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-11 17:21:46,915 - root -INFO -implementing data_processing methods...
+2023-10-11 17:21:46,915 - Data_processing -WARNING -Data_clean method() started....
+2023-10-11 17:21:46,915 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-11 17:21:46,930 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-11 17:21:46,946 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-11 17:21:46,958 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-11 17:21:46,975 - Data_processing -WARNING -Concat first and last name
+2023-10-11 17:21:46,984 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-11 17:21:46,989 - Data_processing -WARNING -Now Checking for null values in all columns
+2023-10-11 17:21:47,062 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-11 17:21:47,062 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-11 17:21:57,257 - root -INFO -Validating schema for the dataframes....
+2023-10-11 17:21:57,258 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-11 17:21:57,259 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-11 17:21:57,259 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-11 17:21:57,259 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-11 17:21:57,259 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-11 17:21:57,259 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-11 17:21:57,259 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-11 17:21:57,259 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:21:57,259 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-11 17:21:57,260 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-11 17:21:57,260 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-11 17:21:57,260 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-11 17:21:57,260 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-11 17:21:57,260 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-11 17:21:57,260 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-11 17:21:57,260 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-11 17:21:57,260 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-11 17:21:57,260 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-11 17:21:57,260 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-11 17:21:57,260 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-11 17:21:57,260 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:21:57,260 - root -INFO -Application Completed...
+2023-10-11 17:24:48,290 - root -INFO -i am in the main method..
+2023-10-11 17:24:48,290 - root -INFO -calling spark object
+2023-10-11 17:24:48,290 - Create_spark -INFO -get_spark_object method started
+2023-10-11 17:24:48,290 - Create_spark -INFO -Master is local
+2023-10-11 17:24:49,990 - Create_spark -INFO -Spark object created
+2023-10-11 17:24:49,990 - root -INFO -Validating spark object..........
+2023-10-11 17:24:49,990 - Validate -WARNING -Started the get_current_date method....
+2023-10-11 17:24:51,431 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+2023-10-11 17:24:51,431 - Validate -WARNING -Validation completed...go forward
+2023-10-11 17:24:51,432 - root -INFO -reading file which is of > parquet
+2023-10-11 17:24:51,432 - Ingest -WARNING -load_files method started
+2023-10-11 17:24:51,692 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:24:51,692 - root -INFO -displaying file
+2023-10-11 17:24:52,484 - root -INFO -here to validate the df
+2023-10-11 17:24:52,484 - Ingest -WARNING -here to count the records in the df_city
+2023-10-11 17:24:52,694 - Ingest -WARNING -number of records 28338 :: 
+2023-10-11 17:24:52,694 - root -INFO -checking for the files in the Fact...
+2023-10-11 17:24:52,694 - root -INFO -reading file which is of > csv
+2023-10-11 17:24:52,694 - Ingest -WARNING -load_files method started
+2023-10-11 17:24:55,295 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:24:55,295 - root -INFO -displaying the df_fact dataframe
+2023-10-11 17:24:55,410 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-11 17:24:55,825 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-11 17:24:55,826 - root -INFO -implementing data_processing methods...
+2023-10-11 17:24:55,826 - Data_processing -WARNING -Data_clean method() started....
+2023-10-11 17:24:55,826 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-11 17:24:55,842 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-11 17:24:55,858 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-11 17:24:55,870 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-11 17:24:55,887 - Data_processing -WARNING -Concat first and last name
+2023-10-11 17:24:55,896 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-11 17:24:55,902 - Data_processing -WARNING -Now Checking for null values in all columns
+2023-10-11 17:24:55,965 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-11 17:24:55,978 - Data_processing -WARNING -Successfully dropped Null Values
+2023-10-11 17:24:55,978 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-11 17:25:06,167 - root -INFO -Validating schema for the dataframes....
+2023-10-11 17:25:06,168 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-11 17:25:06,168 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-11 17:25:06,169 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:25:06,169 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-11 17:25:06,169 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-11 17:25:06,170 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-11 17:25:06,170 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-11 17:25:06,170 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-11 17:25:06,170 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-11 17:25:06,170 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:25:06,170 - root -INFO -Application Completed...
+2023-10-11 17:27:18,304 - root -INFO -i am in the main method..
+2023-10-11 17:27:18,305 - root -INFO -calling spark object
+2023-10-11 17:27:18,305 - Create_spark -INFO -get_spark_object method started
+2023-10-11 17:27:18,305 - Create_spark -INFO -Master is local
+2023-10-11 17:27:20,426 - Create_spark -INFO -Spark object created
+2023-10-11 17:27:20,426 - root -INFO -Validating spark object..........
+2023-10-11 17:27:20,426 - Validate -WARNING -Started the get_current_date method....
+2023-10-11 17:27:21,994 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 11))]
+2023-10-11 17:27:21,994 - Validate -WARNING -Validation completed...go forward
+2023-10-11 17:27:21,994 - root -INFO -reading file which is of > parquet
+2023-10-11 17:27:21,995 - Ingest -WARNING -load_files method started
+2023-10-11 17:27:22,228 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:27:22,228 - root -INFO -displaying file
+2023-10-11 17:27:23,069 - root -INFO -here to validate the df
+2023-10-11 17:27:23,070 - Ingest -WARNING -here to count the records in the df_city
+2023-10-11 17:27:23,268 - Ingest -WARNING -number of records 28338 :: 
+2023-10-11 17:27:23,268 - root -INFO -checking for the files in the Fact...
+2023-10-11 17:27:23,268 - root -INFO -reading file which is of > csv
+2023-10-11 17:27:23,268 - Ingest -WARNING -load_files method started
+2023-10-11 17:27:25,972 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-11 17:27:25,973 - root -INFO -displaying the df_fact dataframe
+2023-10-11 17:27:26,091 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-11 17:27:26,470 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-11 17:27:26,470 - root -INFO -implementing data_processing methods...
+2023-10-11 17:27:26,470 - Data_processing -WARNING -Data_clean method() started....
+2023-10-11 17:27:26,470 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-11 17:27:26,486 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-11 17:27:26,502 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-11 17:27:26,515 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-11 17:27:26,532 - Data_processing -WARNING -Concat first and last name
+2023-10-11 17:27:26,540 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-11 17:27:26,545 - Data_processing -WARNING -Now Checking for null values in all columns
+2023-10-11 17:27:26,617 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-11 17:27:26,631 - Data_processing -WARNING -Successfully dropped Null Values
+2023-10-11 17:27:26,682 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-11 17:27:36,695 - root -INFO -Validating schema for the dataframes....
+2023-10-11 17:27:36,695 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-11 17:27:36,696 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-11 17:27:36,696 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-11 17:27:36,696 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-11 17:27:36,696 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-11 17:27:36,696 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-11 17:27:36,696 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-11 17:27:36,696 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:27:36,696 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-11 17:27:36,697 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-11 17:27:36,697 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-11 17:27:36,697 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-11 17:27:36,697 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-11 17:27:36,697 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-11 17:27:36,697 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-11 17:27:36,697 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-11 17:27:36,697 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-11 17:27:36,697 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-11 17:27:36,697 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-11 17:27:36,697 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-11 17:27:36,697 - Validate -INFO -print_schema done, go forward
+2023-10-11 17:27:36,697 - root -INFO -Application Completed...
