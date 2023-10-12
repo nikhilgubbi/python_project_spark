@@ -1091,3 +1091,673 @@ Application Completed...
 2023-10-11 17:27:36,697 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
 2023-10-11 17:27:36,697 - Validate -INFO -print_schema done, go forward
 2023-10-11 17:27:36,697 - root -INFO -Application Completed...
+2023-10-12 16:57:39,931 - root -INFO -i am in the main method..
+2023-10-12 16:57:39,932 - root -INFO -calling spark object
+2023-10-12 16:57:39,932 - Create_spark -INFO -get_spark_object method started
+2023-10-12 16:57:39,933 - Create_spark -INFO -Master is local
+2023-10-12 16:57:42,238 - Create_spark -INFO -Spark object created
+2023-10-12 16:57:42,238 - root -INFO -Validating spark object..........
+2023-10-12 16:57:42,238 - Validate -WARNING -Started the get_current_date method....
+2023-10-12 16:57:43,754 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 12))]
+2023-10-12 16:57:43,754 - Validate -WARNING -Validation completed...go forward
+2023-10-12 16:57:43,754 - root -INFO -reading file which is of > parquet
+2023-10-12 16:57:43,754 - Ingest -WARNING -load_files method started
+2023-10-12 16:57:44,019 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 16:57:44,019 - root -INFO -displaying file
+2023-10-12 16:57:44,819 - root -INFO -here to validate the df
+2023-10-12 16:57:44,820 - Ingest -WARNING -here to count the records in the df_city
+2023-10-12 16:57:45,026 - Ingest -WARNING -number of records 28338 :: 
+2023-10-12 16:57:45,026 - root -INFO -checking for the files in the Fact...
+2023-10-12 16:57:45,026 - root -INFO -reading file which is of > csv
+2023-10-12 16:57:45,026 - Ingest -WARNING -load_files method started
+2023-10-12 16:57:47,724 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 16:57:47,725 - root -INFO -displaying the df_fact dataframe
+2023-10-12 16:57:47,829 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-12 16:57:48,211 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-12 16:57:48,211 - root -INFO -implementing data_processing methods...
+2023-10-12 16:57:48,211 - Data_processing -WARNING -Data_clean method() started....
+2023-10-12 16:57:48,211 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-12 16:57:48,228 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-12 16:57:48,247 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-12 16:57:48,252 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-12 16:57:48,272 - Data_processing -WARNING -Concat first and last name
+2023-10-12 16:57:48,281 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-12 16:57:48,286 - Data_processing -WARNING -Now Checking for null values in all columns
+2023-10-12 16:57:48,348 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-12 16:57:48,359 - Data_processing -WARNING -Successfully dropped Null Values
+2023-10-12 16:57:48,401 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-12 16:57:58,509 - root -INFO -Validating schema for the dataframes....
+2023-10-12 16:57:58,509 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-12 16:57:58,510 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-12 16:57:58,510 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-12 16:57:58,510 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-12 16:57:58,510 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-12 16:57:58,510 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-12 16:57:58,510 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-12 16:57:58,510 - Validate -INFO -print_schema done, go forward
+2023-10-12 16:57:58,510 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-12 16:57:58,511 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-12 16:57:58,511 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-12 16:57:58,511 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-12 16:57:58,511 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-12 16:57:58,511 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-12 16:57:58,511 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-12 16:57:58,511 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-12 16:57:58,511 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-12 16:57:58,511 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-12 16:57:58,511 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-12 16:57:58,511 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-12 16:57:58,511 - Validate -INFO -print_schema done, go forward
+2023-10-12 16:57:58,511 - root -INFO -Application Completed...
+2023-10-12 17:48:02,608 - root -INFO -i am in the main method..
+2023-10-12 17:48:02,609 - root -INFO -calling spark object
+2023-10-12 17:48:02,609 - Create_spark -INFO -get_spark_object method started
+2023-10-12 17:48:02,609 - Create_spark -INFO -Master is local
+2023-10-12 17:48:04,647 - Create_spark -INFO -Spark object created
+2023-10-12 17:48:04,647 - root -INFO -Validating spark object..........
+2023-10-12 17:48:04,647 - Validate -WARNING -Started the get_current_date method....
+2023-10-12 17:48:06,126 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 12))]
+2023-10-12 17:48:06,126 - Validate -WARNING -Validation completed...go forward
+2023-10-12 17:48:06,126 - root -INFO -reading file which is of > parquet
+2023-10-12 17:48:06,126 - Ingest -WARNING -load_files method started
+2023-10-12 17:48:06,359 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 17:48:06,359 - root -INFO -displaying file
+2023-10-12 17:48:07,145 - root -INFO -here to validate the df
+2023-10-12 17:48:07,145 - Ingest -WARNING -here to count the records in the df_city
+2023-10-12 17:48:07,337 - Ingest -WARNING -number of records 28338 :: 
+2023-10-12 17:48:07,338 - root -INFO -checking for the files in the Fact...
+2023-10-12 17:48:07,338 - root -INFO -reading file which is of > csv
+2023-10-12 17:48:07,338 - Ingest -WARNING -load_files method started
+2023-10-12 17:48:10,011 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 17:48:10,012 - root -INFO -displaying the df_fact dataframe
+2023-10-12 17:48:10,127 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-12 17:48:10,539 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-12 17:48:10,539 - root -INFO -implementing data_processing methods...
+2023-10-12 17:48:10,539 - Data_processing -WARNING -Data_clean method() started....
+2023-10-12 17:48:10,539 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-12 17:48:10,554 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-12 17:48:10,567 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-12 17:48:10,572 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-12 17:48:10,597 - Data_processing -WARNING -Concat first and last name
+2023-10-12 17:48:10,605 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-12 17:48:10,610 - Data_processing -WARNING -Now Checking for null values in all columns
+2023-10-12 17:48:10,681 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-12 17:48:10,695 - Data_processing -WARNING -Fill Null values in tx_cnt with avg values....
+2023-10-12 17:48:13,850 - Data_processing -WARNING -Successfully dropped Null Values
+2023-10-12 17:48:13,898 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-12 17:48:23,921 - root -INFO -Validating schema for the dataframes....
+2023-10-12 17:48:23,922 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-12 17:48:23,922 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-12 17:48:23,922 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-12 17:48:23,922 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-12 17:48:23,922 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-12 17:48:23,922 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-12 17:48:23,922 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-12 17:48:23,922 - Validate -INFO -print_schema done, go forward
+2023-10-12 17:48:23,922 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-12 17:48:23,923 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-12 17:48:23,923 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-12 17:48:23,923 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-12 17:48:23,923 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-12 17:48:23,923 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-12 17:48:23,923 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-12 17:48:23,923 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-12 17:48:23,923 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-12 17:48:23,923 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-12 17:48:23,923 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-12 17:48:23,923 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-12 17:48:23,923 - Validate -INFO -print_schema done, go forward
+2023-10-12 17:48:23,923 - root -INFO -Checking for null values in dataframes after processing...
+2023-10-12 17:48:23,964 - Validate -WARNING -Check_for_nulls executed successfully
+2023-10-12 17:48:33,829 - root -INFO -Data_transformation executed
+2023-10-12 17:48:33,829 - Data_transformation -WARNING -Processing the data_report1 method
+2023-10-12 17:48:33,844 - Data_transformation -WARNING -Calculating distinct prescribers and total tx_cnt
+2023-10-12 17:48:33,857 - Data_transformation -WARNING -Don't report a city if no prescriber is assigned to it.....lets join df_city_sel and def_presc_grp
+2023-10-12 17:48:33,877 - Data_transformation -WARNING -Data_report1 successfully executed.....Go forward
+2023-10-12 17:48:33,877 - root -INFO -Displaying the df_report1
+2023-10-12 17:48:40,569 - root -INFO -Application Completed...
+2023-10-12 17:51:22,451 - root -INFO -i am in the main method..
+2023-10-12 17:51:22,451 - root -INFO -calling spark object
+2023-10-12 17:51:22,451 - Create_spark -INFO -get_spark_object method started
+2023-10-12 17:51:22,451 - Create_spark -INFO -Master is local
+2023-10-12 17:51:24,127 - Create_spark -INFO -Spark object created
+2023-10-12 17:51:24,127 - root -INFO -Validating spark object..........
+2023-10-12 17:51:24,127 - Validate -WARNING -Started the get_current_date method....
+2023-10-12 17:51:25,560 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 12))]
+2023-10-12 17:51:25,560 - Validate -WARNING -Validation completed...go forward
+2023-10-12 17:51:25,560 - root -INFO -reading file which is of > parquet
+2023-10-12 17:51:25,560 - Ingest -WARNING -load_files method started
+2023-10-12 17:51:25,830 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 17:51:25,830 - root -INFO -displaying file
+2023-10-12 17:51:26,611 - root -INFO -here to validate the df
+2023-10-12 17:51:26,611 - Ingest -WARNING -here to count the records in the df_city
+2023-10-12 17:51:26,815 - Ingest -WARNING -number of records 28338 :: 
+2023-10-12 17:51:26,815 - root -INFO -checking for the files in the Fact...
+2023-10-12 17:51:26,815 - root -INFO -reading file which is of > csv
+2023-10-12 17:51:26,815 - Ingest -WARNING -load_files method started
+2023-10-12 17:51:29,501 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 17:51:29,501 - root -INFO -displaying the df_fact dataframe
+2023-10-12 17:51:29,611 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-12 17:51:29,996 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-12 17:51:29,996 - root -INFO -implementing data_processing methods...
+2023-10-12 17:51:29,996 - Data_processing -WARNING -Data_clean method() started....
+2023-10-12 17:51:29,996 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-12 17:51:30,012 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-12 17:51:30,027 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-12 17:51:30,032 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-12 17:51:30,049 - Data_processing -WARNING -Concat first and last name
+2023-10-12 17:51:30,057 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-12 17:51:30,062 - Data_processing -WARNING -Now Checking for null values in all columns
+2023-10-12 17:51:30,128 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-12 17:51:30,141 - Data_processing -WARNING -Fill Null values in tx_cnt with avg values....
+2023-10-12 17:51:33,297 - Data_processing -WARNING -Successfully dropped Null Values
+2023-10-12 17:51:33,349 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-12 17:51:43,340 - root -INFO -Validating schema for the dataframes....
+2023-10-12 17:51:43,340 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-12 17:51:43,340 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-12 17:51:43,340 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-12 17:51:43,340 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-12 17:51:43,340 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-12 17:51:43,340 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-12 17:51:43,340 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-12 17:51:43,340 - Validate -INFO -print_schema done, go forward
+2023-10-12 17:51:43,340 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-12 17:51:43,341 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-12 17:51:43,341 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-12 17:51:43,341 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-12 17:51:43,341 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-12 17:51:43,341 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-12 17:51:43,341 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-12 17:51:43,341 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-12 17:51:43,341 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-12 17:51:43,341 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-12 17:51:43,341 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-12 17:51:43,341 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-12 17:51:43,341 - Validate -INFO -print_schema done, go forward
+2023-10-12 17:51:43,341 - root -INFO -Checking for null values in dataframes after processing...
+2023-10-12 17:51:43,387 - Validate -WARNING -Check_for_nulls executed successfully
+2023-10-12 17:51:53,250 - root -INFO -Data_transformation executed
+2023-10-12 17:51:53,250 - Data_transformation -WARNING -Processing the data_report1 method
+2023-10-12 17:51:53,266 - Data_transformation -WARNING -Calculating distinct prescribers and total tx_cnt
+2023-10-12 17:51:53,278 - Data_transformation -WARNING -Don't report a city if no prescriber is assigned to it.....lets join df_city_sel and def_presc_grp
+2023-10-12 17:51:53,296 - Data_transformation -WARNING -Data_report1 successfully executed.....Go forward
+2023-10-12 17:51:53,296 - root -INFO -Displaying the df_report1
+2023-10-12 17:52:00,002 - root -INFO -Application Completed...
+2023-10-12 17:52:52,748 - root -INFO -i am in the main method..
+2023-10-12 17:52:52,748 - root -INFO -calling spark object
+2023-10-12 17:52:52,748 - Create_spark -INFO -get_spark_object method started
+2023-10-12 17:52:52,748 - Create_spark -INFO -Master is local
+2023-10-12 17:52:54,332 - Create_spark -INFO -Spark object created
+2023-10-12 17:52:54,332 - root -INFO -Validating spark object..........
+2023-10-12 17:52:54,332 - Validate -WARNING -Started the get_current_date method....
+2023-10-12 17:52:55,745 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 12))]
+2023-10-12 17:52:55,745 - Validate -WARNING -Validation completed...go forward
+2023-10-12 17:52:55,745 - root -INFO -reading file which is of > parquet
+2023-10-12 17:52:55,745 - Ingest -WARNING -load_files method started
+2023-10-12 17:52:55,975 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 17:52:55,975 - root -INFO -displaying file
+2023-10-12 17:52:56,993 - root -INFO -here to validate the df
+2023-10-12 17:52:56,993 - Ingest -WARNING -here to count the records in the df_city
+2023-10-12 17:52:57,191 - Ingest -WARNING -number of records 28338 :: 
+2023-10-12 17:52:57,191 - root -INFO -checking for the files in the Fact...
+2023-10-12 17:52:57,191 - root -INFO -reading file which is of > csv
+2023-10-12 17:52:57,191 - Ingest -WARNING -load_files method started
+2023-10-12 17:52:59,835 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 17:52:59,835 - root -INFO -displaying the df_fact dataframe
+2023-10-12 17:52:59,942 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-12 17:53:00,322 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-12 17:53:00,322 - root -INFO -implementing data_processing methods...
+2023-10-12 17:53:00,322 - Data_processing -WARNING -Data_clean method() started....
+2023-10-12 17:53:00,322 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-12 17:53:00,338 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-12 17:53:00,354 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-12 17:53:00,366 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-12 17:53:00,382 - Data_processing -WARNING -Concat first and last name
+2023-10-12 17:53:00,391 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-12 17:53:00,396 - Data_processing -WARNING -Now Checking for null values in all columns
+2023-10-12 17:53:00,454 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-12 17:53:00,465 - Data_processing -WARNING -Fill Null values in tx_cnt with avg values....
+2023-10-12 17:53:03,633 - Data_processing -WARNING -Successfully dropped Null Values
+2023-10-12 17:53:03,687 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-12 17:53:13,610 - root -INFO -Validating schema for the dataframes....
+2023-10-12 17:53:13,610 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-12 17:53:13,611 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-12 17:53:13,611 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-12 17:53:13,611 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-12 17:53:13,611 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-12 17:53:13,611 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-12 17:53:13,611 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-12 17:53:13,611 - Validate -INFO -print_schema done, go forward
+2023-10-12 17:53:13,611 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-12 17:53:13,611 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-12 17:53:13,611 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-12 17:53:13,611 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-12 17:53:13,611 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-12 17:53:13,612 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-12 17:53:13,612 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-12 17:53:13,612 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-12 17:53:13,612 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-12 17:53:13,612 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-12 17:53:13,612 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-12 17:53:13,612 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-12 17:53:13,612 - Validate -INFO -print_schema done, go forward
+2023-10-12 17:53:13,612 - root -INFO -Checking for null values in dataframes after processing...
+2023-10-12 17:53:13,655 - Validate -WARNING -Check_for_nulls executed successfully
+2023-10-12 17:53:23,335 - root -INFO -Data_transformation executed
+2023-10-12 17:53:23,335 - Data_transformation -WARNING -Processing the data_report1 method
+2023-10-12 17:53:23,351 - Data_transformation -WARNING -Calculating distinct prescribers and total tx_cnt
+2023-10-12 17:53:23,365 - Data_transformation -WARNING -Don't report a city if no prescriber is assigned to it.....lets join df_city_sel and def_presc_grp
+2023-10-12 17:53:23,385 - Data_transformation -WARNING -Data_report1 successfully executed.....Go forward
+2023-10-12 17:53:23,385 - root -INFO -Displaying the df_report1
+2023-10-12 17:53:29,988 - root -INFO -Application Completed...
+2023-10-12 17:55:07,701 - root -INFO -i am in the main method..
+2023-10-12 17:55:07,701 - root -INFO -calling spark object
+2023-10-12 17:55:07,701 - Create_spark -INFO -get_spark_object method started
+2023-10-12 17:55:07,701 - Create_spark -INFO -Master is local
+2023-10-12 17:55:09,274 - Create_spark -INFO -Spark object created
+2023-10-12 17:55:09,275 - root -INFO -Validating spark object..........
+2023-10-12 17:55:09,275 - Validate -WARNING -Started the get_current_date method....
+2023-10-12 17:55:10,713 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 12))]
+2023-10-12 17:55:10,713 - Validate -WARNING -Validation completed...go forward
+2023-10-12 17:55:10,713 - root -INFO -reading file which is of > parquet
+2023-10-12 17:55:10,713 - Ingest -WARNING -load_files method started
+2023-10-12 17:55:10,945 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 17:55:10,945 - root -INFO -displaying file
+2023-10-12 17:55:11,729 - root -INFO -here to validate the df
+2023-10-12 17:55:11,729 - Ingest -WARNING -here to count the records in the df_city
+2023-10-12 17:55:11,932 - Ingest -WARNING -number of records 28338 :: 
+2023-10-12 17:55:11,932 - root -INFO -checking for the files in the Fact...
+2023-10-12 17:55:11,933 - root -INFO -reading file which is of > csv
+2023-10-12 17:55:11,933 - Ingest -WARNING -load_files method started
+2023-10-12 17:55:14,453 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 17:55:14,453 - root -INFO -displaying the df_fact dataframe
+2023-10-12 17:55:14,564 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-12 17:55:14,936 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-12 17:55:14,937 - root -INFO -implementing data_processing methods...
+2023-10-12 17:55:14,937 - Data_processing -WARNING -Data_clean method() started....
+2023-10-12 17:55:14,937 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-12 17:55:14,953 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-12 17:55:14,968 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-12 17:55:14,980 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-12 17:55:14,995 - Data_processing -WARNING -Concat first and last name
+2023-10-12 17:55:15,003 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-12 17:55:15,008 - Data_processing -WARNING -Now Checking for null values in all columns
+2023-10-12 17:55:15,077 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-12 17:55:15,088 - Data_processing -WARNING -Fill Null values in tx_cnt with avg values....
+2023-10-12 17:55:18,277 - Data_processing -WARNING -Successfully dropped Null Values
+2023-10-12 17:55:18,333 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-12 17:55:28,251 - root -INFO -Validating schema for the dataframes....
+2023-10-12 17:55:28,251 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-12 17:55:28,251 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-12 17:55:28,251 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-12 17:55:28,251 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-12 17:55:28,251 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-12 17:55:28,251 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-12 17:55:28,251 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-12 17:55:28,251 - Validate -INFO -print_schema done, go forward
+2023-10-12 17:55:28,252 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-12 17:55:28,252 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-12 17:55:28,252 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-12 17:55:28,252 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-12 17:55:28,252 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-12 17:55:28,252 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-12 17:55:28,252 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-12 17:55:28,252 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-12 17:55:28,252 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-12 17:55:28,252 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-12 17:55:28,252 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-12 17:55:28,252 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-12 17:55:28,252 - Validate -INFO -print_schema done, go forward
+2023-10-12 17:55:28,252 - root -INFO -Checking for null values in dataframes after processing...
+2023-10-12 17:55:28,296 - Validate -WARNING -Check_for_nulls executed successfully
+2023-10-12 17:55:38,121 - root -INFO -Data_transformation executed
+2023-10-12 17:55:38,121 - Data_transformation -WARNING -Processing the data_report1 method
+2023-10-12 17:55:38,138 - Data_transformation -WARNING -Calculating distinct prescribers and total tx_cnt
+2023-10-12 17:55:38,153 - Data_transformation -WARNING -Don't report a city if no prescriber is assigned to it.....lets join df_city_sel and def_presc_grp
+2023-10-12 17:55:38,173 - Data_transformation -WARNING -Data_report1 successfully executed.....Go forward
+2023-10-12 17:55:38,173 - root -INFO -Displaying the df_report1
+2023-10-12 17:55:44,899 - root -INFO -Application Completed...
+2023-10-12 17:59:09,883 - root -INFO -i am in the main method..
+2023-10-12 17:59:09,883 - root -INFO -calling spark object
+2023-10-12 17:59:09,883 - Create_spark -INFO -get_spark_object method started
+2023-10-12 17:59:09,883 - Create_spark -INFO -Master is local
+2023-10-12 17:59:11,957 - Create_spark -INFO -Spark object created
+2023-10-12 17:59:11,957 - root -INFO -Validating spark object..........
+2023-10-12 17:59:11,957 - Validate -WARNING -Started the get_current_date method....
+2023-10-12 17:59:13,506 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 12))]
+2023-10-12 17:59:13,506 - Validate -WARNING -Validation completed...go forward
+2023-10-12 17:59:13,506 - root -INFO -reading file which is of > parquet
+2023-10-12 17:59:13,506 - Ingest -WARNING -load_files method started
+2023-10-12 17:59:13,756 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 17:59:13,756 - root -INFO -displaying file
+2023-10-12 17:59:14,592 - root -INFO -here to validate the df
+2023-10-12 17:59:14,592 - Ingest -WARNING -here to count the records in the df_city
+2023-10-12 17:59:14,809 - Ingest -WARNING -number of records 28338 :: 
+2023-10-12 17:59:14,809 - root -INFO -checking for the files in the Fact...
+2023-10-12 17:59:14,809 - root -INFO -reading file which is of > csv
+2023-10-12 17:59:14,809 - Ingest -WARNING -load_files method started
+2023-10-12 17:59:17,413 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 17:59:17,414 - root -INFO -displaying the df_fact dataframe
+2023-10-12 17:59:17,538 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-12 17:59:17,926 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-12 17:59:17,927 - root -INFO -implementing data_processing methods...
+2023-10-12 17:59:17,927 - Data_processing -WARNING -Data_clean method() started....
+2023-10-12 17:59:17,927 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-12 17:59:17,941 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-12 17:59:17,957 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-12 17:59:17,970 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-12 17:59:17,987 - Data_processing -WARNING -Concat first and last name
+2023-10-12 17:59:17,996 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-12 17:59:18,002 - Data_processing -WARNING -Now Checking for null values in all columns
+2023-10-12 17:59:18,062 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-12 17:59:18,077 - Data_processing -WARNING -Fill Null values in tx_cnt with avg values....
+2023-10-12 17:59:21,335 - Data_processing -WARNING -Successfully dropped Null Values
+2023-10-12 17:59:21,391 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-12 17:59:31,393 - root -INFO -Validating schema for the dataframes....
+2023-10-12 17:59:31,393 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-12 17:59:31,394 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-12 17:59:31,394 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-12 17:59:31,394 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-12 17:59:31,394 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-12 17:59:31,394 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-12 17:59:31,394 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-12 17:59:31,394 - Validate -INFO -print_schema done, go forward
+2023-10-12 17:59:31,394 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-12 17:59:31,394 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-12 17:59:31,395 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-12 17:59:31,395 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-12 17:59:31,395 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-12 17:59:31,395 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-12 17:59:31,395 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-12 17:59:31,395 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-12 17:59:31,395 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-12 17:59:31,395 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-12 17:59:31,395 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-12 17:59:31,395 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-12 17:59:31,395 - Validate -INFO -print_schema done, go forward
+2023-10-12 17:59:31,395 - root -INFO -Checking for null values in dataframes after processing...
+2023-10-12 17:59:31,395 - Validate -INFO -check for nulls method executing.......for df_fact
+2023-10-12 17:59:31,441 - Validate -WARNING -Check_for_nulls executed successfully...
+2023-10-12 17:59:41,215 - root -INFO -Data_transformation executed
+2023-10-12 17:59:41,215 - Data_transformation -WARNING -processing the data_report1 method..
+2023-10-12 17:59:41,216 - Data_transformation -WARNING -calculating total zip counts in DataFrame[city: string, state_id: string, state_name: string, county_name: string, population: int, zips: string]
+2023-10-12 17:59:41,231 - Data_transformation -WARNING -calculating distinct prescribers and total tx_cnt
+2023-10-12 17:59:41,242 - Data_transformation -WARNING -Don't report a city if no prescriber is assigned to it.....lets join df_city_sel and df_presc_grp
+2023-10-12 17:59:41,261 - Data_transformation -WARNING -Data_report1 succesfully executed..., go frwd
+2023-10-12 17:59:41,261 - root -INFO -Displaying the df_report1
+2023-10-12 17:59:47,937 - root -INFO -Application Completed...
+2023-10-12 18:03:29,216 - root -INFO -i am in the main method..
+2023-10-12 18:03:29,216 - root -INFO -calling spark object
+2023-10-12 18:03:29,217 - Create_spark -INFO -get_spark_object method started
+2023-10-12 18:03:29,217 - Create_spark -INFO -Master is local
+2023-10-12 18:03:31,007 - Create_spark -INFO -Spark object created
+2023-10-12 18:03:31,007 - root -INFO -Validating spark object..........
+2023-10-12 18:03:31,007 - Validate -WARNING -Started the get_current_date method....
+2023-10-12 18:03:32,414 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 12))]
+2023-10-12 18:03:32,414 - Validate -WARNING -Validation completed...go forward
+2023-10-12 18:03:32,414 - root -INFO -reading file which is of > parquet
+2023-10-12 18:03:32,414 - Ingest -WARNING -load_files method started
+2023-10-12 18:03:32,695 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 18:03:32,695 - root -INFO -displaying file
+2023-10-12 18:03:33,476 - root -INFO -here to validate the df
+2023-10-12 18:03:33,476 - Ingest -WARNING -here to count the records in the df_city
+2023-10-12 18:03:33,665 - Ingest -WARNING -number of records 28338 :: 
+2023-10-12 18:03:33,665 - root -INFO -checking for the files in the Fact...
+2023-10-12 18:03:33,665 - root -INFO -reading file which is of > csv
+2023-10-12 18:03:33,665 - Ingest -WARNING -load_files method started
+2023-10-12 18:03:36,310 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 18:03:36,311 - root -INFO -displaying the df_fact dataframe
+2023-10-12 18:03:36,417 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-12 18:03:36,791 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-12 18:03:36,791 - root -INFO -implementing data_processing methods...
+2023-10-12 18:03:36,792 - Data_processing -WARNING -Data_clean method() started....
+2023-10-12 18:03:36,792 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-12 18:03:36,808 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-12 18:03:36,822 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-12 18:03:36,835 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-12 18:03:36,853 - Data_processing -WARNING -Concat first and last name
+2023-10-12 18:03:36,862 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-12 18:03:36,868 - Data_processing -WARNING -Now Checking for null values in all columns
+2023-10-12 18:03:36,938 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-12 18:03:36,952 - Data_processing -WARNING -Fill Null values in tx_cnt with avg values....
+2023-10-12 18:03:40,213 - Data_processing -WARNING -Successfully dropped Null Values
+2023-10-12 18:03:40,275 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-12 18:03:49,954 - root -INFO -Validating schema for the dataframes....
+2023-10-12 18:03:49,954 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-12 18:03:49,955 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-12 18:03:49,955 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-12 18:03:49,955 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-12 18:03:49,955 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-12 18:03:49,955 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-12 18:03:49,955 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-12 18:03:49,955 - Validate -INFO -print_schema done, go forward
+2023-10-12 18:03:49,955 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-12 18:03:49,955 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-12 18:03:49,956 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-12 18:03:49,956 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-12 18:03:49,956 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-12 18:03:49,956 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-12 18:03:49,956 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-12 18:03:49,956 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-12 18:03:49,956 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-12 18:03:49,956 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-12 18:03:49,956 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-12 18:03:49,956 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-12 18:03:49,956 - Validate -INFO -print_schema done, go forward
+2023-10-12 18:03:49,956 - root -INFO -Checking for null values in dataframes after processing...
+2023-10-12 18:03:49,956 - Validate -INFO -check for nulls method executing.......for df_fact
+2023-10-12 18:03:50,002 - Validate -WARNING -Check_for_nulls executed successfully...
+2023-10-12 18:03:59,517 - root -INFO -Data_transformation executed
+2023-10-12 18:03:59,517 - Data_transformation -WARNING -processing the data_report1 method..
+2023-10-12 18:03:59,519 - Data_transformation -WARNING -calculating total zip counts in DataFrame[city: string, state_id: string, state_name: string, county_name: string, population: int, zips: string]
+2023-10-12 18:03:59,532 - Data_transformation -WARNING -calculating distinct prescribers and total tx_cnt
+2023-10-12 18:03:59,543 - Data_transformation -WARNING -Don't report a city if no prescriber is assigned to it.....lets join df_city_sel and df_presc_grp
+2023-10-12 18:03:59,562 - Data_transformation -WARNING -Data_report1 successfully executed..., go forward
+2023-10-12 18:03:59,562 - root -INFO -Displaying the df_report1
+2023-10-12 18:04:06,349 - root -INFO -Application Completed...
+2023-10-12 18:05:54,893 - root -INFO -i am in the main method..
+2023-10-12 18:05:54,893 - root -INFO -calling spark object
+2023-10-12 18:05:54,893 - Create_spark -INFO -get_spark_object method started
+2023-10-12 18:05:54,893 - Create_spark -INFO -Master is local
+2023-10-12 18:05:56,669 - Create_spark -INFO -Spark object created
+2023-10-12 18:05:56,669 - root -INFO -Validating spark object..........
+2023-10-12 18:05:56,669 - Validate -WARNING -Started the get_current_date method....
+2023-10-12 18:05:58,064 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 12))]
+2023-10-12 18:05:58,065 - Validate -WARNING -Validation completed...go forward
+2023-10-12 18:05:58,065 - root -INFO -reading file which is of > parquet
+2023-10-12 18:05:58,065 - Ingest -WARNING -load_files method started
+2023-10-12 18:05:58,343 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 18:05:58,344 - root -INFO -displaying file
+2023-10-12 18:05:59,110 - root -INFO -here to validate the df
+2023-10-12 18:05:59,110 - Ingest -WARNING -here to count the records in the df_city
+2023-10-12 18:05:59,321 - Ingest -WARNING -number of records 28338 :: 
+2023-10-12 18:05:59,321 - root -INFO -checking for the files in the Fact...
+2023-10-12 18:05:59,321 - root -INFO -reading file which is of > csv
+2023-10-12 18:05:59,321 - Ingest -WARNING -load_files method started
+2023-10-12 18:06:01,939 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 18:06:01,939 - root -INFO -displaying the df_fact dataframe
+2023-10-12 18:06:02,067 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-12 18:06:02,453 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-12 18:06:02,453 - root -INFO -implementing data_processing methods...
+2023-10-12 18:06:02,453 - Data_processing -WARNING -Data_clean method() started....
+2023-10-12 18:06:02,453 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-12 18:06:02,468 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-12 18:06:02,485 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-12 18:06:02,497 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-12 18:06:02,515 - Data_processing -WARNING -Concat first and last name
+2023-10-12 18:06:02,524 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-12 18:06:02,529 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-12 18:06:02,546 - Data_processing -WARNING -Fill Null values in tx_cnt with avg values....
+2023-10-12 18:06:04,272 - Data_processing -WARNING -Successfully dropped Null Values
+2023-10-12 18:06:04,334 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-12 18:06:14,122 - root -INFO -Validating schema for the dataframes....
+2023-10-12 18:06:14,123 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-12 18:06:14,123 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-12 18:06:14,123 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-12 18:06:14,123 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-12 18:06:14,123 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-12 18:06:14,123 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-12 18:06:14,123 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-12 18:06:14,123 - Validate -INFO -print_schema done, go forward
+2023-10-12 18:06:14,123 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-12 18:06:14,124 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-12 18:06:14,124 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-12 18:06:14,124 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-12 18:06:14,124 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-12 18:06:14,124 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-12 18:06:14,124 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-12 18:06:14,124 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-12 18:06:14,124 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-12 18:06:14,124 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-12 18:06:14,124 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-12 18:06:14,124 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-12 18:06:14,124 - Validate -INFO -print_schema done, go forward
+2023-10-12 18:06:14,124 - root -INFO -Checking for null values in dataframes after processing...
+2023-10-12 18:06:14,124 - Validate -INFO -check for nulls method executing.......for df_fact
+2023-10-12 18:06:14,168 - Validate -WARNING -Check_for_nulls executed successfully...
+2023-10-12 18:06:23,746 - root -INFO -Data_transformation executed
+2023-10-12 18:06:23,746 - Data_transformation -WARNING -processing the data_report1 method..
+2023-10-12 18:06:23,747 - Data_transformation -WARNING -calculating total zip counts in DataFrame[city: string, state_id: string, state_name: string, county_name: string, population: int, zips: string]
+2023-10-12 18:06:23,763 - Data_transformation -WARNING -calculating distinct prescribers and total tx_cnt
+2023-10-12 18:06:23,776 - Data_transformation -WARNING -Don't report a city if no prescriber is assigned to it.....lets join df_city_sel and df_presc_grp
+2023-10-12 18:06:23,796 - Data_transformation -WARNING -Data_report1 successfully executed..., go forward
+2023-10-12 18:06:23,796 - root -INFO -Displaying the df_report1
+2023-10-12 18:06:28,877 - root -INFO -Application Completed...
+2023-10-12 18:15:02,123 - root -INFO -i am in the main method..
+2023-10-12 18:15:02,124 - root -INFO -calling spark object
+2023-10-12 18:15:02,124 - Create_spark -INFO -get_spark_object method started
+2023-10-12 18:15:02,124 - Create_spark -INFO -Master is local
+2023-10-12 18:15:03,700 - Create_spark -INFO -Spark object created
+2023-10-12 18:15:03,700 - root -INFO -Validating spark object..........
+2023-10-12 18:15:03,700 - Validate -WARNING -Started the get_current_date method....
+2023-10-12 18:15:05,147 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 12))]
+2023-10-12 18:15:05,148 - Validate -WARNING -Validation completed...go forward
+2023-10-12 18:15:05,148 - root -INFO -reading file which is of > parquet
+2023-10-12 18:15:05,148 - Ingest -WARNING -load_files method started
+2023-10-12 18:15:05,449 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 18:15:05,449 - root -INFO -displaying file
+2023-10-12 18:15:06,221 - root -INFO -here to validate the df
+2023-10-12 18:15:06,221 - Ingest -WARNING -here to count the records in the df_city
+2023-10-12 18:15:06,437 - Ingest -WARNING -number of records 28338 :: 
+2023-10-12 18:15:06,437 - root -INFO -checking for the files in the Fact...
+2023-10-12 18:15:06,437 - root -INFO -reading file which is of > csv
+2023-10-12 18:15:06,437 - Ingest -WARNING -load_files method started
+2023-10-12 18:15:09,038 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 18:15:09,038 - root -INFO -displaying the df_fact dataframe
+2023-10-12 18:15:09,172 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-12 18:15:09,584 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-12 18:15:09,584 - root -INFO -implementing data_processing methods...
+2023-10-12 18:15:09,584 - Data_processing -WARNING -Data_clean method() started....
+2023-10-12 18:15:09,584 - Data_processing -WARNING -Selecting required columns and converting some of columns into upper case....
+2023-10-12 18:15:09,599 - Data_processing -WARNING -Working on OLTP dataset and selecting couple of columns and renaming....
+2023-10-12 18:15:09,612 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-12 18:15:09,617 - Data_processing -WARNING -Converting year_of_exp string to int and replacing
+2023-10-12 18:15:09,634 - Data_processing -WARNING -Concat first and last name
+2023-10-12 18:15:09,643 - Data_processing -WARNING -Now dropping presc_lname and presc_fname
+2023-10-12 18:15:09,648 - Data_processing -WARNING -Drop the null values in respective columns.....
+2023-10-12 18:15:09,666 - Data_processing -WARNING -Fill Null values in tx_cnt with avg values....
+2023-10-12 18:15:11,332 - Data_processing -WARNING -Successfully dropped Null Values
+2023-10-12 18:15:11,400 - Data_processing -WARNING -data_clean() method executed done, go  forward.....
+2023-10-12 18:15:21,251 - root -INFO -Validating schema for the dataframes....
+2023-10-12 18:15:21,251 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-12 18:15:21,252 - Validate -INFO -print_schema done, go forward
+2023-10-12 18:15:21,252 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('presc_id', LongType(), False)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('presc_city', LongType(), False)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('presc_state', LongType(), False)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('presc_spclt', LongType(), False)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('drug_name', LongType(), False)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('tx_cnt', LongType(), False)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('total_day_supply', LongType(), False)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('total_drug_cost', LongType(), False)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('years_of_exp', LongType(), False)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('Country_name', LongType(), False)
+2023-10-12 18:15:21,252 - Validate -INFO -	StructField('presc_fullname', LongType(), False)
+2023-10-12 18:15:21,252 - Validate -INFO -print_schema done, go forward
+2023-10-12 18:15:21,252 - root -INFO -Checking for null values in dataframes after processing...
+2023-10-12 18:15:21,252 - Validate -INFO -check for nulls method executing.......for df_fact
+2023-10-12 18:15:21,304 - Validate -WARNING -Check_for_nulls executed successfully...
+2023-10-12 18:15:31,108 - root -INFO -Data_transformation executed
+2023-10-12 18:15:31,108 - Data_transformation -WARNING -processing the data_report1 method..
+2023-10-12 18:15:31,110 - Data_transformation -WARNING -calculating total zip counts in DataFrame[city: string, state_id: string, state_name: string, county_name: string, population: int, zips: string]
+2023-10-12 18:15:31,124 - Data_transformation -WARNING -calculating distinct prescribers and total tx_cnt
+2023-10-12 18:15:31,140 - Data_transformation -WARNING -Don't report a city if no prescriber is assigned to it.....lets join df_city_sel and df_presc_grp
+2023-10-12 18:15:31,162 - Data_transformation -WARNING -Data_report1 successfully executed..., go forward
+2023-10-12 18:15:31,162 - root -INFO -Displaying the df_report1
+2023-10-12 18:15:36,312 - root -INFO -Application Completed...
+2023-10-12 18:21:32,315 - root -INFO -i am in the main method..
+2023-10-12 18:21:32,315 - root -INFO -calling spark object
+2023-10-12 18:21:32,315 - Create_spark -INFO -get_spark_object method started
+2023-10-12 18:21:32,315 - Create_spark -INFO -Master is local
+2023-10-12 18:21:34,340 - Create_spark -INFO -Spark object created
+2023-10-12 18:21:34,340 - root -INFO -Validating spark object..........
+2023-10-12 18:21:34,340 - Validate -WARNING -Started the get_current_date method....
+2023-10-12 18:21:35,839 - Validate -WARNING -Validating spark object with current date[Row(current_date()=datetime.date(2023, 10, 12))]
+2023-10-12 18:21:35,840 - Validate -WARNING -Validation completed...go forward
+2023-10-12 18:21:35,840 - root -INFO -reading file which is of > parquet
+2023-10-12 18:21:35,840 - Ingest -WARNING -load_files method started
+2023-10-12 18:21:36,135 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 18:21:36,135 - root -INFO -displaying file
+2023-10-12 18:21:36,927 - root -INFO -here to validate the df
+2023-10-12 18:21:36,927 - Ingest -WARNING -here to count the records in the df_city
+2023-10-12 18:21:37,130 - Ingest -WARNING -number of records 28338 :: 
+2023-10-12 18:21:37,130 - root -INFO -checking for the files in the Fact...
+2023-10-12 18:21:37,130 - root -INFO -reading file which is of > csv
+2023-10-12 18:21:37,130 - Ingest -WARNING -load_files method started
+2023-10-12 18:21:39,689 - Ingest -WARNING -Load_files func done, go fwd..
+2023-10-12 18:21:39,689 - root -INFO -displaying the df_fact dataframe
+2023-10-12 18:21:39,801 - Ingest -WARNING -here to count the records in the df_fact
+2023-10-12 18:21:40,189 - Ingest -WARNING -number of records 1329329 :: 
+2023-10-12 18:21:40,189 - root -INFO -implementing data_processing methods...
+2023-10-12 18:21:40,189 - Data_processing -WARNING -data_clean method() started...
+2023-10-12 18:21:40,189 - Data_processing -WARNING -selecting required columns and converting some of columns into upper case..
+2023-10-12 18:21:40,205 - Data_processing -WARNING -working on OLTP dataset and selecting couple of columns and rename...
+2023-10-12 18:21:40,217 - Data_processing -WARNING -Adding a new column to df_presc_sel
+2023-10-12 18:21:40,222 - Data_processing -WARNING -converting Year_of_exp string to Int and replacing = 
+2023-10-12 18:21:40,239 - Data_processing -WARNING -concat first and lname 
+2023-10-12 18:21:40,247 - Data_processing -WARNING -now dropping presc_lname and presc_fname
+2023-10-12 18:21:40,253 - Data_processing -WARNING -now check for null values in all columns
+2023-10-12 18:21:40,253 - Data_processing -WARNING -drop the null values in the respective columns....
+2023-10-12 18:21:40,271 - Data_processing -WARNING -fill the null values in tx_cnt with the avg values...
+2023-10-12 18:21:41,942 - Data_processing -WARNING -successfully droped the null values....
+2023-10-12 18:21:41,942 - Data_processing -WARNING -check for the null values cleaned are not ....
+2023-10-12 18:21:41,942 - Data_processing -WARNING -data_clean() method executed done, go frwd....
+2023-10-12 18:21:42,111 - root -INFO -Validating schema for the dataframes....
+2023-10-12 18:21:42,112 - Validate -WARNING -Print schema method executing....df_city_sel
+2023-10-12 18:21:42,112 - Validate -INFO -	StructField('city', StringType(), True)
+2023-10-12 18:21:42,112 - Validate -INFO -	StructField('state_id', StringType(), True)
+2023-10-12 18:21:42,112 - Validate -INFO -	StructField('state_name', StringType(), True)
+2023-10-12 18:21:42,112 - Validate -INFO -	StructField('county_name', StringType(), True)
+2023-10-12 18:21:42,112 - Validate -INFO -	StructField('population', IntegerType(), True)
+2023-10-12 18:21:42,112 - Validate -INFO -	StructField('zips', StringType(), True)
+2023-10-12 18:21:42,112 - Validate -INFO -print_schema done, go forward
+2023-10-12 18:21:42,112 - Validate -WARNING -Print schema method executing....df_presc_sel
+2023-10-12 18:21:42,113 - Validate -INFO -	StructField('presc_id', IntegerType(), True)
+2023-10-12 18:21:42,113 - Validate -INFO -	StructField('presc_city', StringType(), True)
+2023-10-12 18:21:42,113 - Validate -INFO -	StructField('presc_state', StringType(), True)
+2023-10-12 18:21:42,113 - Validate -INFO -	StructField('presc_spclt', StringType(), True)
+2023-10-12 18:21:42,113 - Validate -INFO -	StructField('drug_name', StringType(), True)
+2023-10-12 18:21:42,113 - Validate -INFO -	StructField('tx_cnt', IntegerType(), True)
+2023-10-12 18:21:42,113 - Validate -INFO -	StructField('total_day_supply', IntegerType(), True)
+2023-10-12 18:21:42,113 - Validate -INFO -	StructField('total_drug_cost', DoubleType(), True)
+2023-10-12 18:21:42,113 - Validate -INFO -	StructField('years_of_exp', IntegerType(), True)
+2023-10-12 18:21:42,113 - Validate -INFO -	StructField('Country_name', StringType(), False)
+2023-10-12 18:21:42,113 - Validate -INFO -	StructField('presc_fullname', StringType(), False)
+2023-10-12 18:21:42,113 - Validate -INFO -print_schema done, go forward
+2023-10-12 18:21:42,113 - root -INFO -Checking for null values in dataframes after processing...
+2023-10-12 18:21:42,113 - Validate -INFO -check for nulls method executing.......for df_fact
+2023-10-12 18:21:42,174 - Validate -WARNING -Check_for_nulls executed successfully...
+2023-10-12 18:21:52,017 - root -INFO -Data_transformation executed
+2023-10-12 18:21:52,017 - Data_transformation -WARNING -processing the data_report1 method..
+2023-10-12 18:21:52,019 - Data_transformation -WARNING -calculating total zip counts in DataFrame[city: string, state_id: string, state_name: string, county_name: string, population: int, zips: string]
+2023-10-12 18:21:52,032 - Data_transformation -WARNING -calculating distinct prescribers and total tx_cnt
+2023-10-12 18:21:52,047 - Data_transformation -WARNING -Don't report a city if no prescriber is assigned to it.....lets join df_city_sel and df_presc_grp
+2023-10-12 18:21:52,066 - Data_transformation -WARNING -Data_report1 successfully executed..., go forward
+2023-10-12 18:21:52,066 - root -INFO -Displaying the df_report1
+2023-10-12 18:21:55,667 - root -INFO -Application Completed...

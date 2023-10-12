@@ -1,5 +1,6 @@
 import logging
 import logging.config
+from pyspark.sql.functions import *
 
 logging.config.fileConfig('properties/configuration/logging.config')
 
@@ -18,7 +19,7 @@ def get_current_date(spark):
         loggers.warning('Validation completed...go forward')
 
 
-def print_schema(df,dfName):
+def print_schema(df, dfName):
     try:
         loggers.warning('Print schema method executing....{}'.format(dfName))
 
@@ -28,7 +29,7 @@ def print_schema(df,dfName):
             loggers.info(f"\t{i}")
 
     except Exception as e:
-        loggers.error('An error occurred in print_schema...',str(e))
+        loggers.error('An error occurred in print_schema...', str(e))
 
         raise
 
@@ -36,3 +37,16 @@ def print_schema(df,dfName):
         loggers.info('print_schema done, go forward')
 
 
+def check_for_nulls(df, dfName):
+    try:
+        loggers.info("check for nulls method executing.......for {}".format(dfName))
+
+        check_null_df = df.select([count(when(isnan(c) | col(c).isNull(), c)).alias(c) for c in df.columns])
+
+    except Exception as e:
+        loggers.error('An error occur while working on check_for_nulls===', str(e))
+
+    else:
+        loggers.warning('Check_for_nulls executed successfully...')
+
+    return check_null_df
